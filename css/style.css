@@ -1,0 +1,219 @@
+html{
+	scroll-behavior: smooth;
+}
+/******************** Date Section ***********************/
+.date{
+    padding: 25px;
+    width: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    background: black;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+}
+.venue{
+    font-size: .5em;
+    word-spacing: normal;
+    letter-spacing: normal;
+    /*margin-top: 20px;*/
+    font-weight: 100;
+}
+.btn-slide2 {
+    padding: 8px 20px;
+    background: #c52d2f;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 25px;
+    display: inline-block;
+    border: 1px solid white;
+    font-size: 1.5em;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { .date{ line-height: 1em } }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) { .date{ line-height: 1em } }
+/******************** Date Section Ends ******************/
+/******************** About Section ***********************/
+.abouts {
+	display: flow-root;
+	/*background: #fff;*/
+}
+.abouts .abouts-bg .abouts-us h3 {
+	font-size: 40px;
+	line-height: 72px;
+	font-weight: 500;
+	margin-bottom: 0px;
+	padding: 40px 0px;
+	text-transform: uppercase;
+}
+.abouts-us p {
+	line-height: 31px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	padding-top: 0px !important;
+	padding: 30px 0px;
+}
+.abouts .abouts-bg .abouts-us figure {
+	margin: 0px;
+}
+.abouts .abouts-bg .abouts-us figure img {
+	width: 100%;
+}
+.abouts .abouts-bg {
+	margin: 0 0 10px 0;
+	padding-left: 0;
+}
+/******************** About Section Ends ***********************/
+
+/******************** Gallery Section ***********************/
+.lead2 {
+    font-size: 18px;
+    font-family: fangsong;
+    color: #d54b34 !important;
+}
+/******************** Gallery Section Ends ***********************/
+
+/******************** Call button Section ***********************/
+.media-body{
+	display: block;
+    margin: 60px auto 10px auto;
+    padding: 10px;
+    text-align: center;
+    width: 100% !important;
+}
+#call-btn{
+	padding: 7px 40px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ea2127;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+#call-btn a{
+	color: white;
+	text-transform: uppercase;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.media-body{
+		/*display: flex;
+		position: absolute;
+		left: 0px;*/
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+/******************** Call button Section Ends ***********************/
+
+/* --------------------------
+:: 12.0 Footer Area CSS
+-------------------------- */
+
+.footer-area {
+    position: relative;
+    z-index: 1;
+    background-color: #211b31;
+    padding: 40px 10px;
+}
+
+.single-footer-widget{
+	margin-top: 10px;
+}
+
+.single-footer-widget h5 {
+    color: #fff;
+    /*margin-bottom: 50px;*/
+}
+
+.single-footer-widget ul > li > a {
+    color: rgba(226, 219, 243, 0.30);
+    margin-bottom: 10px!important;
+    display: block;
+    font-weight: 500;
+}
+
+.single-footer-widget ul > li > a:last-child {
+    margin-bottom: 0;
+}
+
+.single-footer-widget ul > li > a:hover {
+    color: #ffffff;
+}
+
+.copyright-text > p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.footer-social-info > a {
+    color: #abadbe;
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.footer-social-info > a:hover {
+    color: #fff;
+}
+
+.footer-single--blog-post {
+    margin-bottom: 30px;
+}
+
+.footer-single--blog-post:last-child {
+    margin-bottom: 0;
+}
+
+.footer-single--blog-post .blog-post-date > p {
+    font-size: 12px;
+    margin-bottom: 5px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.footer-single--blog-post .blog-post-title > h6 {
+    font-size: 14px;
+    margin-bottom: 0;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.footer-single--blog-post .blog-post-date > p:hover,
+.footer-single--blog-post .blog-post-title > h6:hover {
+    color: #4a7aec;
+}
+
+.footer-single-contact-info{
+	display: flex;
+}
+
+.footer-single-contact-info .contact-icon {
+    margin-right: 15px;
+}
+
+.footer-bottom-area {
+    /*background-color: #191426;*/
+    height: 60px;
+    text-align: center;
+    position: relative;
+    bottom: 0% !important;
+    margin-top: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.single-footer-widget{
+		margin-top: 20px;
+	}
+	.footer-bottom-area {
+        height: 100px;
+        text-align: center;
+        padding: 25px 0;
+        margin: 0;
+        width: 100%;
+    }
+}
